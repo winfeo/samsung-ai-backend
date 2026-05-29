@@ -12,4 +12,4 @@ COPY . .
 RUN unzip -o models.zip -d models && rm models.zip
 
 # Используем переменную PORT от Railway
-CMD uvicorn server:app --host 0.0.0.0 --port ${PORT:-8000}
+CMD uvicorn server:app --host 0.0.0.0 --port ${PORT:-8080}
