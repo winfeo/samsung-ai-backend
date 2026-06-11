@@ -1,0 +1,52 @@
+{
+  "genre_categories": [
+    "alternative",
+    "classical",
+    "electronic",
+    "hiphop",
+    "jazz",
+    "pop",
+    "rock"
+  ],
+  "cat_to_idx": {
+    "alternative": 0,
+    "classical": 1,
+    "electronic": 2,
+    "hiphop": 3,
+    "jazz": 4,
+    "pop": 5,
+    "rock": 6
+  },
+  "idx_to_cat": {
+    "0": "alternative",
+    "1": "classical",
+    "2": "electronic",
+    "3": "hiphop",
+    "4": "jazz",
+    "5": "pop",
+    "6": "rock"
+  },
+  "num_genre_cats": 7,
+  "rhythmic_classes": [
+    "hiphop",
+    "electronic",
+    "rock",
+    "alternative"
+  ],
+  "melodic_classes": [
+    "classical",
+    "jazz",
+    "pop"
+  ],
+  "rhythmic_indices": [
+    3,
+    2,
+    6,
+    0
+  ],
+  "melodic_indices": [
+    1,
+    4,
+    5
+  ]
+}

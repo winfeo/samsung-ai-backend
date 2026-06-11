@@ -1,0 +1,36 @@
+{
+  "all_mood_groups": [
+    "calm",
+    "cinematic",
+    "corporate",
+    "dark",
+    "dreamy",
+    "emotional",
+    "energetic",
+    "epic",
+    "happy"
+  ],
+  "group_to_idx": {
+    "calm": 0,
+    "cinematic": 1,
+    "corporate": 2,
+    "dark": 3,
+    "dreamy": 4,
+    "emotional": 5,
+    "energetic": 6,
+    "epic": 7,
+    "happy": 8
+  },
+  "idx_to_group": {
+    "0": "calm",
+    "1": "cinematic",
+    "2": "corporate",
+    "3": "dark",
+    "4": "dreamy",
+    "5": "emotional",
+    "6": "energetic",
+    "7": "epic",
+    "8": "happy"
+  },
+  "num_mood_groups": 9
+}

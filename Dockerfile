@@ -8,8 +8,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
-
 RUN unzip -o models.zip -d models && rm models.zip
 
-# Используем переменную PORT от Railway
-CMD uvicorn server:app --host 0.0.0.0 --port ${PORT:-8080}
+# Указываем порт для Hugging Face (7860)
+CMD ["uvicorn", "server:app", "--host", "0.0.0.0", "--port", "7860"]
